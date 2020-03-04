@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">My Cricket</string>
+    <string name="app_name">MyCricket</string>
+    <string name="zero">0</string>
+    <string name="batting_scorecard">Batting Scorecard</string>
+    <string name="runs">Runs</string>
+    <string name="wicket">Wicket</string>
+    <string name="out">Out</string>
+    <string name="not_out">Not Out</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="over">Over</string>
+    <string-array name="no_of_runs">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+
 </resources>
