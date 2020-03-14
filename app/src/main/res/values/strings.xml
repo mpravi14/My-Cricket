@@ -1,14 +1,20 @@
 <resources>
     <string name="app_name">MyCricket</string>
     <string name="zero">0</string>
+    <string name="team_scorecard">Team Scorecard</string>
     <string name="batting_scorecard">Batting Scorecard</string>
     <string name="runs">Runs</string>
     <string name="wicket">Wicket</string>
+    <string name="balls">Balls</string>
+    <string name="enter_batsman_name">Enter Batsman Name</string>
     <string name="out">Out</string>
     <string name="not_out">Not Out</string>
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="over">Over</string>
+    <string name="add_new">Add New</string>
+    <string name="batsman_name_tip">Enter Batsman Name</string>
+    <string name="export">Export</string>
     <string-array name="no_of_runs">
         <item>1</item>
         <item>2</item>

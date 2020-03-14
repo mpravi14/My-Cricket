@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_border">
+
+    <!--<TextView
+        android:id="@+id/text_batsman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_batsman_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <EditText
+        android:id="@+id/text_batsman_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_batsman_name"
+        app:layout_constraintStart_toStartOf="parent"
+        android:enabled="true"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/add_new_batsman_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_batsman_name" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_border"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <Button
+        android:id="@+id/wicket_bowled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Bowled"
+        />
+    <Button
+        android:id="@+id/wicket_caught"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/wicket_bowled"
+        android:text="Caught"
+        />
+    <Button
+        android:id="@+id/wicket_runout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/wicket_caught"
+        android:text="Runout"
+        />
+
+    <Button
+        android:id="@+id/wicket_stumped"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/wicket_bowled"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Stumped"
+        />
+
+    <Button
+        android:id="@+id/wicket_hitwicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/wicket_stumped"
+        app:layout_constraintTop_toBottomOf="@+id/wicket_caught"
+        android:text="Hit Wicket"
+        />
+
+    <Button
+        android:id="@+id/wicket_retired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/wicket_hitwicket"
+        app:layout_constraintTop_toBottomOf="@+id/wicket_caught"
+        android:text="Retired"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
